@@ -23,3 +23,15 @@ PHP Warning:  Module 'openssl' already loaded in Unknown on line 0
 [Sun Jan 09 10:16:12.428603 2022] [ssl:warn] [pid 12280:tid 628] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
 PHP Warning:  Module 'openssl' already loaded in Unknown on line 0
 [Sun Jan 09 10:16:12.476640 2022] [mpm_winnt:notice] [pid 12280:tid 628] AH00354: Child: Starting 150 worker threads.
+[Sun Jan 09 12:38:07.897292 2022] [ssl:warn] [pid 10428:tid 604] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jan 09 12:38:07.936291 2022] [core:warn] [pid 10428:tid 604] AH00098: pid file D:/Moodle-Group10/server/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sun Jan 09 12:38:07.938293 2022] [ssl:warn] [pid 10428:tid 604] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+PHP Warning:  Module 'openssl' already loaded in Unknown on line 0
+[Sun Jan 09 12:38:08.305302 2022] [mpm_winnt:notice] [pid 10428:tid 604] AH00455: Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.11 configured -- resuming normal operations
+[Sun Jan 09 12:38:08.305302 2022] [mpm_winnt:notice] [pid 10428:tid 604] AH00456: Apache Lounge VC15 Server built: Aug 11 2019 12:20:04
+[Sun Jan 09 12:38:08.305302 2022] [core:notice] [pid 10428:tid 604] AH00094: Command line: 'apache\\bin\\httpd.exe -d D:/Moodle-Group10/server/apache -f conf\\httpd.conf'
+[Sun Jan 09 12:38:08.312292 2022] [mpm_winnt:notice] [pid 10428:tid 604] AH00418: Parent: Created child process 8940
+[Sun Jan 09 12:38:08.852292 2022] [ssl:warn] [pid 8940:tid 568] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jan 09 12:38:08.892291 2022] [ssl:warn] [pid 8940:tid 568] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+PHP Warning:  Module 'openssl' already loaded in Unknown on line 0
+[Sun Jan 09 12:38:08.929292 2022] [mpm_winnt:notice] [pid 8940:tid 568] AH00354: Child: Starting 150 worker threads.
