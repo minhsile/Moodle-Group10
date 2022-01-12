@@ -177,3 +177,15 @@ PHP Warning:  Module 'openssl' already loaded in Unknown on line 0
 [Tue Jan 11 21:53:09.566591 2022] [mpm_winnt:notice] [pid 18868:tid 560] AH00422: Parent: Received shutdown signal -- Shutting down the server.
 [Tue Jan 11 21:53:11.639875 2022] [mpm_winnt:notice] [pid 18940:tid 516] AH00364: Child: All worker threads have exited.
 [Tue Jan 11 21:53:11.848656 2022] [mpm_winnt:notice] [pid 18868:tid 560] AH00430: Parent: Child process 18940 exited successfully.
+[Wed Jan 12 14:39:19.418846 2022] [ssl:warn] [pid 22068:tid 556] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Jan 12 14:39:19.542753 2022] [ssl:warn] [pid 22068:tid 556] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+PHP Warning:  Module 'openssl' already loaded in Unknown on line 0
+[Wed Jan 12 14:39:20.611659 2022] [mpm_winnt:notice] [pid 22068:tid 556] AH00455: Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.11 configured -- resuming normal operations
+[Wed Jan 12 14:39:20.611659 2022] [mpm_winnt:notice] [pid 22068:tid 556] AH00456: Apache Lounge VC15 Server built: Aug 11 2019 12:20:04
+[Wed Jan 12 14:39:20.611659 2022] [core:notice] [pid 22068:tid 556] AH00094: Command line: 'apache\\bin\\httpd.exe -d D:/Moodle-Group10/server/apache -f conf\\httpd.conf'
+[Wed Jan 12 14:39:20.624982 2022] [mpm_winnt:notice] [pid 22068:tid 556] AH00418: Parent: Created child process 1932
+[Wed Jan 12 14:39:21.482626 2022] [ssl:warn] [pid 1932:tid 508] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Jan 12 14:39:21.540535 2022] [ssl:warn] [pid 1932:tid 508] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+PHP Warning:  Module 'openssl' already loaded in Unknown on line 0
+[Wed Jan 12 14:39:21.585984 2022] [mpm_winnt:notice] [pid 1932:tid 508] AH00354: Child: Starting 150 worker threads.
+[Wed Jan 12 16:57:45.315267 2022] [php7:notice] [pid 1932:tid 1824] [client ::1:63662] [client 0:0:0:0:0:0:0:1]  http://localhost  Invalid Login Token:  teacher1  Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36 Edg/97.0.1072.55, referer: http://localhost/login/index.php
