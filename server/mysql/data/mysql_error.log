@@ -3541,3 +3541,20 @@ InnoDB: using atomic writes.
 2022-01-12 20:17:53 0 [Note] mysql\bin\mysqld.exe: ready for connections.
 Version: '10.4.8-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
 2022-01-12 20:17:54 0 [Note] InnoDB: Buffer pool(s) load completed at 220112 20:17:54
+2022-01-13 20:15:57 0 [Warning] The parameter innodb_large_prefix is deprecated and has no effect. It may be removed in future releases. See https://mariadb.com/kb/en/library/xtradbinnodb-file-format/
+InnoDB: using atomic writes.
+2022-01-13 20:15:57 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2022-01-13 20:15:57 0 [Note] InnoDB: Uses event mutexes
+2022-01-13 20:15:57 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2022-01-13 20:15:57 0 [Note] InnoDB: Number of pools: 1
+2022-01-13 20:15:57 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2022-01-13 20:15:57 0 [Note] InnoDB: Initializing buffer pool, total size = 256M, instances = 1, chunk size = 128M
+2022-01-13 20:15:57 0 [Note] InnoDB: Completed initialization of buffer pool
+2022-01-13 20:15:57 0 [ERROR] InnoDB: D:\Moodle-Group10\server\mysql\data\ib_logfile1 can't be opened in read-write mode.
+2022-01-13 20:15:57 0 [ERROR] InnoDB: Plugin initialization aborted with error Generic error
+2022-01-13 20:15:57 0 [Note] InnoDB: Starting shutdown...
+2022-01-13 20:15:57 0 [ERROR] Plugin 'InnoDB' init function returned error.
+2022-01-13 20:15:57 0 [ERROR] Plugin 'InnoDB' registration as a STORAGE ENGINE failed.
+2022-01-13 20:15:57 0 [Note] Plugin 'FEEDBACK' is disabled.
+2022-01-13 20:15:57 0 [ERROR] Unknown/unsupported storage engine: innodb
+2022-01-13 20:15:57 0 [ERROR] Aborting

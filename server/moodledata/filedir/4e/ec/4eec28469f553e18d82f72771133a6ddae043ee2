@@ -1,0 +1,5 @@
+shortname,fullname,category,summary,enrolment_1,enrolment_1_role,enrolment_1_enrolperiod
+courserestored,Course restored,1,a summary,manual,student,1 month
+courserestored2,Course restored 2,1,a summary,,,
+courserestored3,Course restored 3,1,a summary,,,
+courserestored4,Course restored 4,1,"a summary, with comma",manual,student,1 month

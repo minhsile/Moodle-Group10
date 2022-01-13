@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<inforef>
+  <userref>
+    <user>
+      <id>2</id>
+    </user>
+  </userref>
+  <roleref>
+    <role>
+      <id>3</id>
+    </role>
+    <role>
+      <id>5</id>
+    </role>
+  </roleref>
+</inforef>

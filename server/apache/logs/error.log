@@ -286,3 +286,16 @@ PHP Warning:  Module 'openssl' already loaded in Unknown on line 0
 [Wed Jan 12 20:51:45.215989 2022] [ssl:warn] [pid 13072:tid 568] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
 PHP Warning:  Module 'openssl' already loaded in Unknown on line 0
 [Wed Jan 12 20:51:45.248497 2022] [mpm_winnt:notice] [pid 13072:tid 568] AH00354: Child: Starting 150 worker threads.
+[Thu Jan 13 20:15:58.542803 2022] [ssl:warn] [pid 18808:tid 520] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Jan 13 20:15:58.638547 2022] [ssl:warn] [pid 18808:tid 520] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+PHP Warning:  Module 'openssl' already loaded in Unknown on line 0
+[Thu Jan 13 20:15:59.567217 2022] [mpm_winnt:notice] [pid 18808:tid 520] AH00455: Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.11 configured -- resuming normal operations
+[Thu Jan 13 20:15:59.567217 2022] [mpm_winnt:notice] [pid 18808:tid 520] AH00456: Apache Lounge VC15 Server built: Aug 11 2019 12:20:04
+[Thu Jan 13 20:15:59.567217 2022] [core:notice] [pid 18808:tid 520] AH00094: Command line: 'apache\\bin\\httpd.exe -d D:/Moodle-Group10/server/apache -f conf\\httpd.conf'
+[Thu Jan 13 20:15:59.571206 2022] [mpm_winnt:notice] [pid 18808:tid 520] AH00418: Parent: Created child process 10736
+[Thu Jan 13 20:16:00.270485 2022] [ssl:warn] [pid 10736:tid 552] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Jan 13 20:16:00.325339 2022] [ssl:warn] [pid 10736:tid 552] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+PHP Warning:  Module 'openssl' already loaded in Unknown on line 0
+[Thu Jan 13 20:16:00.355259 2022] [mpm_winnt:notice] [pid 10736:tid 552] AH00354: Child: Starting 150 worker threads.
+[Thu Jan 13 21:05:45.070845 2022] [php7:notice] [pid 10736:tid 1848] [client ::1:60013] Potential coding error - existing temptables found when disposing database. Must be dropped!, referer: http://localhost/course/delete.php?id=5
+[Thu Jan 13 21:10:03.731075 2022] [php7:error] [pid 10736:tid 1872] [client ::1:60782] PHP Fatal error:  Out of memory (allocated 2097152) (tried to allocate 1052672 bytes) in D:\\Moodle-Group10\\server\\moodle\\cache\\stores\\file\\lib.php on line 376, referer: http://localhost/course/edit.php?category=0
