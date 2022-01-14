@@ -31,3 +31,31 @@
 10:31:36 AM  [main] 	Deinitializing Modules
 10:31:36 AM  [main] 	Deinitializing Control Panel
 
+10:50:09 PM  [main] 	Initializing Control Panel
+10:50:09 PM  [main] 	Windows Version:  Enterprise  64-bit
+10:50:09 PM  [main] 	XAMPP Version: 7.3.11
+10:50:09 PM  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+10:50:09 PM  [main] 	You are not running with administrator rights! This will work for
+10:50:09 PM  [main] 	most application stuff but whenever you do something with services
+10:50:09 PM  [main] 	there will be a security dialogue or things will break! So think 
+10:50:09 PM  [main] 	about running this application with administrator rights!
+10:50:09 PM  [main] 	XAMPP Installation Directory: "d:\moodle-group10\server\"
+10:50:09 PM  [main] 	Checking for prerequisites
+10:50:11 PM  [main] 	All prerequisites found
+10:50:11 PM  [main] 	Initializing Modules
+10:50:11 PM  [mysql] 	XAMPP MySQL is already running on port 3306
+10:50:11 PM  [main] 	The FileZilla module is disabled
+10:50:11 PM  [main] 	The Mercury module is disabled
+10:50:11 PM  [Tomcat] 	Problem detected: Tomcat Not Found!
+10:50:11 PM  [Tomcat] 	Disabling Tomcat buttons
+10:50:11 PM  [Tomcat] 	Run this program from your XAMPP root directory!
+10:50:11 PM  [Tomcat] 	Problem detected: Required Tool catalina_start.bat Not Found!
+10:50:11 PM  [Tomcat] 	Problem detected: Required Tool catalina_stop.bat Not Found!
+10:50:11 PM  [Tomcat] 	Problem detected: Required Tool catalina_service.bat Not Found!
+10:50:11 PM  [main] 	Starting Check-Timer
+10:50:11 PM  [main] 	Control Panel Ready
+10:50:14 PM  [mysql] 	Attempting to stop MySQL app...
+10:50:14 PM  [mysql] 	Status change detected: stopped
+10:50:17 PM  [main] 	Deinitializing Modules
+10:50:17 PM  [main] 	Deinitializing Control Panel
+
