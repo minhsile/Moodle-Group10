@@ -6248,3 +6248,262 @@ Version: '10.4.8-MariaDB'  socket: ''  port: 3306  mariadb.org binary distributi
 2022-01-14 18:49:56 5632 [ERROR] InnoDB: Transaction id 63057 associated with recordCOMPACT RECORD(info_bits=0, 5 fields): {[6]course(0x636F75727365),NULL,[8]        (0x8000000000000001),[8]        (0x8000000000000001),[8]        (0x8000000000000001)} in index `mdl_graditem_iteiteitecou_ix` of table `mysql`.`mdl_grade_items` is greater than the global counter 58634! The table is corrupted.
 2022-01-14 18:49:56 5632 [ERROR] InnoDB: Transaction id 63057 associated with recordCOMPACT RECORD(info_bits=0, 5 fields): {[6]course(0x636F75727365),NULL,[8]        (0x8000000000000002),[8]        (0x8000000000000002),[8]        (0x8000000000000002)} in index `mdl_graditem_iteiteitecou_ix` of table `mysql`.`mdl_grade_items` is greater than the global counter 58634! The table is corrupted.
 2022-01-14 18:49:56 5632 [ERROR] InnoDB: Transaction id 63057 associated with recordCOMPACT RECORD(info_bits=0, 2 fields): {[8]        (0x8000000000000002),[8]        (0x8000000000000002)} in index `mdl_graditem_cou_ix` of table `mysql`.`mdl_grade_items` is greater than the global counter 58634! The table is corrupted.
+2022-01-14 19:58:15 5837 [ERROR] InnoDB: Transaction id 63101 associated with recordCOMPACT RECORD(info_bits=0, 2 fields): {[8]        (0x800000000000001F),[8]       4(0x8000000000000034)} in index `mdl_userenro_use_ix` of table `mysql`.`mdl_user_enrolments` is greater than the global counter 58996! The table is corrupted.
+2022-01-14 19:58:15 5837 [ERROR] InnoDB: Transaction id 63101 associated with recordCOMPACT RECORD(info_bits=0, 2 fields): {[8]        (0x800000000000001F),[8]       4(0x8000000000000034)} in index `mdl_userenro_use_ix` of table `mysql`.`mdl_user_enrolments` is greater than the global counter 59006! The table is corrupted.
+2022-01-14 19:58:15 5837 [ERROR] InnoDB: Transaction id 61055 associated with recordCOMPACT RECORD(info_bits=0, 3 fields): {[8]        (0x800000000000001E),[1] (0x81),[8]       <(0x800000000000003C)} in index `mdl_mypage_usepri_ix` of table `mysql`.`mdl_my_pages` is greater than the global counter 59019! The table is corrupted.
+2022-01-14 19:58:15 5837 [ERROR] InnoDB: Transaction id 61055 associated with recordCOMPACT RECORD(info_bits=0, 3 fields): {[8]        (0x800000000000001F),[1] (0x80),[8]       >(0x800000000000003E)} in index `mdl_mypage_usepri_ix` of table `mysql`.`mdl_my_pages` is greater than the global counter 59019! The table is corrupted.
+2022-01-14 19:58:15 5837 [ERROR] InnoDB: Transaction id 60726 associated with recordCOMPACT RECORD(info_bits=0, 2 fields): {[8]        (0x8000000000000086),[8]        (0x80000000000000C6)} in index `mdl_blocinst_par_ix` of table `mysql`.`mdl_block_instances` is greater than the global counter 59098! The table is corrupted.
+2022-01-14 19:58:19 5840 [ERROR] InnoDB: Transaction id 61055 associated with recordCOMPACT RECORD(info_bits=0, 3 fields): {[8]        (0x800000000000001F),[1] (0x81),[8]       =(0x800000000000003D)} in index `mdl_mypage_usepri_ix` of table `mysql`.`mdl_my_pages` is greater than the global counter 59175! The table is corrupted.
+2022-01-14 19:58:19 5840 [ERROR] InnoDB: Transaction id 61055 associated with recordCOMPACT RECORD(info_bits=0, 3 fields): {[8]       )(0x8000000000000029),[1] (0x80),[8]        (0x800000000000001E)} in index `mdl_mypage_usepri_ix` of table `mysql`.`mdl_my_pages` is greater than the global counter 59175! The table is corrupted.
+2022-01-14 19:58:19 5840 [ERROR] InnoDB: Transaction id 60726 associated with recordCOMPACT RECORD(info_bits=0, 2 fields): {[8]        (0x800000000000011E),[8]        (0x8000000000000083)} in index `mdl_blocinst_par_ix` of table `mysql`.`mdl_block_instances` is greater than the global counter 59244! The table is corrupted.
+2022-01-14 20:08:35 6398 [ERROR] InnoDB: Transaction id 63057 associated with recordCOMPACT RECORD(info_bits=0, 2 fields): {[8]       7(0x8000000000000037),[8]       G(0x8000000000000047)} in index `mdl_graditem_cou_ix` of table `mysql`.`mdl_grade_items` is greater than the global counter 60848! The table is corrupted.
+2022-01-14 20:08:35 6398 [ERROR] InnoDB: Transaction id 63095 associated with recordCOMPACT RECORD(info_bits=0, 2 fields): {[8]       7(0x8000000000000037),[8]       V(0x8000000000000056)} in index `mdl_courmodu_cou_ix` of table `mysql`.`mdl_course_modules` is greater than the global counter 60865! The table is corrupted.
+2022-01-14 20:08:36 6398 [ERROR] InnoDB: Transaction id 63155 associated with recordCOMPACT RECORD(info_bits=0, 3 fields): {[8]       7(0x8000000000000037),[8]        (0x8000000000000000),[8]        (0x800000000000010C)} in index `mdl_coursect_cousec_uix` of table `mysql`.`mdl_course_sections` is greater than the global counter 60957! The table is corrupted.
+2022-01-14 20:08:36 6398 [ERROR] InnoDB: Transaction id 63155 associated with recordCOMPACT RECORD(info_bits=0, 3 fields): {[8]       7(0x8000000000000037),[8]        (0x8000000000000001),[8]        (0x800000000000010D)} in index `mdl_coursect_cousec_uix` of table `mysql`.`mdl_course_sections` is greater than the global counter 60957! The table is corrupted.
+2022-01-14 20:08:36 6398 [ERROR] InnoDB: Transaction id 63155 associated with recordCOMPACT RECORD(info_bits=0, 3 fields): {[8]       7(0x8000000000000037),[8]        (0x8000000000000002),[8]        (0x800000000000010E)} in index `mdl_coursect_cousec_uix` of table `mysql`.`mdl_course_sections` is greater than the global counter 60957! The table is corrupted.
+2022-01-14 20:08:36 6398 [ERROR] InnoDB: Transaction id 63155 associated with recordCOMPACT RECORD(info_bits=0, 3 fields): {[8]       7(0x8000000000000037),[8]        (0x8000000000000003),[8]        (0x800000000000010F)} in index `mdl_coursect_cousec_uix` of table `mysql`.`mdl_course_sections` is greater than the global counter 60957! The table is corrupted.
+2022-01-14 20:08:36 6398 [ERROR] InnoDB: Transaction id 63155 associated with recordCOMPACT RECORD(info_bits=0, 3 fields): {[8]       7(0x8000000000000037),[8]        (0x8000000000000004),[8]        (0x8000000000000110)} in index `mdl_coursect_cousec_uix` of table `mysql`.`mdl_course_sections` is greater than the global counter 60961! The table is corrupted.
+2022-01-14 20:08:36 6398 [ERROR] InnoDB: Transaction id 63182 associated with recordCOMPACT RECORD(info_bits=0, 2 fields): {[8]       7(0x8000000000000037),[8]       l(0x800000000000006C)} in index `mdl_courformopti_cou_ix` of table `mysql`.`mdl_course_format_options` is greater than the global counter 60985! The table is corrupted.
+2022-01-14 20:08:36 6398 [ERROR] InnoDB: Transaction id 63182 associated with recordCOMPACT RECORD(info_bits=0, 2 fields): {[8]       7(0x8000000000000037),[8]       m(0x800000000000006D)} in index `mdl_courformopti_cou_ix` of table `mysql`.`mdl_course_format_options` is greater than the global counter 60988! The table is corrupted.
+2022-01-14 20:09:04 6435 [ERROR] InnoDB: Transaction id 63057 associated with recordCOMPACT RECORD(info_bits=0, 2 fields): {[8]       ;(0x800000000000003B),[8]       H(0x8000000000000048)} in index `mdl_graditem_cou_ix` of table `mysql`.`mdl_grade_items` is greater than the global counter 61353! The table is corrupted.
+2022-01-14 20:09:04 6435 [ERROR] InnoDB: Transaction id 63095 associated with recordCOMPACT RECORD(info_bits=0, 2 fields): {[8]       ;(0x800000000000003B),[8]       Z(0x800000000000005A)} in index `mdl_courmodu_cou_ix` of table `mysql`.`mdl_course_modules` is greater than the global counter 61370! The table is corrupted.
+2022-01-14 20:09:05 6435 [ERROR] InnoDB: Transaction id 63155 associated with recordCOMPACT RECORD(info_bits=0, 3 fields): {[8]       ;(0x800000000000003B),[8]        (0x8000000000000000),[8]        (0x8000000000000120)} in index `mdl_coursect_cousec_uix` of table `mysql`.`mdl_course_sections` is greater than the global counter 61436! The table is corrupted.
+2022-01-14 20:09:05 6435 [ERROR] InnoDB: Transaction id 63155 associated with recordCOMPACT RECORD(info_bits=0, 3 fields): {[8]       ;(0x800000000000003B),[8]        (0x8000000000000001),[8]       !(0x8000000000000121)} in index `mdl_coursect_cousec_uix` of table `mysql`.`mdl_course_sections` is greater than the global counter 61436! The table is corrupted.
+2022-01-14 20:09:05 6435 [ERROR] InnoDB: Transaction id 63155 associated with recordCOMPACT RECORD(info_bits=0, 3 fields): {[8]       ;(0x800000000000003B),[8]        (0x8000000000000002),[8]       "(0x8000000000000122)} in index `mdl_coursect_cousec_uix` of table `mysql`.`mdl_course_sections` is greater than the global counter 61436! The table is corrupted.
+2022-01-14 20:09:05 6435 [ERROR] InnoDB: Transaction id 63155 associated with recordCOMPACT RECORD(info_bits=0, 3 fields): {[8]       ;(0x800000000000003B),[8]        (0x8000000000000003),[8]       #(0x8000000000000123)} in index `mdl_coursect_cousec_uix` of table `mysql`.`mdl_course_sections` is greater than the global counter 61436! The table is corrupted.
+2022-01-14 20:09:05 6435 [ERROR] InnoDB: Transaction id 63155 associated with recordCOMPACT RECORD(info_bits=0, 3 fields): {[8]       ;(0x800000000000003B),[8]        (0x8000000000000004),[8]       $(0x8000000000000124)} in index `mdl_coursect_cousec_uix` of table `mysql`.`mdl_course_sections` is greater than the global counter 61436! The table is corrupted.
+2022-01-14 20:09:05 6435 [ERROR] InnoDB: Transaction id 63182 associated with recordCOMPACT RECORD(info_bits=0, 2 fields): {[8]       ;(0x800000000000003B),[8]       t(0x8000000000000074)} in index `mdl_courformopti_cou_ix` of table `mysql`.`mdl_course_format_options` is greater than the global counter 61459! The table is corrupted.
+2022-01-14 20:09:05 6435 [ERROR] InnoDB: Transaction id 63182 associated with recordCOMPACT RECORD(info_bits=0, 2 fields): {[8]       ;(0x800000000000003B),[8]       u(0x8000000000000075)} in index `mdl_courformopti_cou_ix` of table `mysql`.`mdl_course_format_options` is greater than the global counter 61459! The table is corrupted.
+2022-01-14 20:09:08 6438 [ERROR] InnoDB: Transaction id 63057 associated with recordCOMPACT RECORD(info_bits=0, 2 fields): {[8]       :(0x800000000000003A),[8]       I(0x8000000000000049)} in index `mdl_graditem_cou_ix` of table `mysql`.`mdl_grade_items` is greater than the global counter 61521! The table is corrupted.
+2022-01-14 20:09:08 6438 [ERROR] InnoDB: Transaction id 63095 associated with recordCOMPACT RECORD(info_bits=0, 2 fields): {[8]       :(0x800000000000003A),[8]       Y(0x8000000000000059)} in index `mdl_courmodu_cou_ix` of table `mysql`.`mdl_course_modules` is greater than the global counter 61534! The table is corrupted.
+2022-01-14 20:09:08 6438 [ERROR] InnoDB: Transaction id 63155 associated with recordCOMPACT RECORD(info_bits=0, 3 fields): {[8]       :(0x800000000000003A),[8]        (0x8000000000000000),[8]        (0x800000000000011B)} in index `mdl_coursect_cousec_uix` of table `mysql`.`mdl_course_sections` is greater than the global counter 61600! The table is corrupted.
+2022-01-14 20:09:08 6438 [ERROR] InnoDB: Transaction id 63155 associated with recordCOMPACT RECORD(info_bits=0, 3 fields): {[8]       :(0x800000000000003A),[8]        (0x8000000000000001),[8]        (0x800000000000011C)} in index `mdl_coursect_cousec_uix` of table `mysql`.`mdl_course_sections` is greater than the global counter 61600! The table is corrupted.
+2022-01-14 20:09:08 6438 [ERROR] InnoDB: Transaction id 63155 associated with recordCOMPACT RECORD(info_bits=0, 3 fields): {[8]       :(0x800000000000003A),[8]        (0x8000000000000002),[8]        (0x800000000000011D)} in index `mdl_coursect_cousec_uix` of table `mysql`.`mdl_course_sections` is greater than the global counter 61600! The table is corrupted.
+2022-01-14 20:09:08 6438 [ERROR] InnoDB: Transaction id 63155 associated with recordCOMPACT RECORD(info_bits=0, 3 fields): {[8]       :(0x800000000000003A),[8]        (0x8000000000000003),[8]        (0x800000000000011E)} in index `mdl_coursect_cousec_uix` of table `mysql`.`mdl_course_sections` is greater than the global counter 61600! The table is corrupted.
+2022-01-14 20:09:08 6438 [ERROR] InnoDB: Transaction id 63155 associated with recordCOMPACT RECORD(info_bits=0, 3 fields): {[8]       :(0x800000000000003A),[8]        (0x8000000000000004),[8]        (0x800000000000011F)} in index `mdl_coursect_cousec_uix` of table `mysql`.`mdl_course_sections` is greater than the global counter 61600! The table is corrupted.
+2022-01-14 20:09:08 6438 [ERROR] InnoDB: Transaction id 63182 associated with recordCOMPACT RECORD(info_bits=0, 2 fields): {[8]       :(0x800000000000003A),[8]       r(0x8000000000000072)} in index `mdl_courformopti_cou_ix` of table `mysql`.`mdl_course_format_options` is greater than the global counter 61627! The table is corrupted.
+2022-01-14 20:09:08 6438 [ERROR] InnoDB: Transaction id 63182 associated with recordCOMPACT RECORD(info_bits=0, 2 fields): {[8]       :(0x800000000000003A),[8]       s(0x8000000000000073)} in index `mdl_courformopti_cou_ix` of table `mysql`.`mdl_course_format_options` is greater than the global counter 61627! The table is corrupted.
+2022-01-14 20:09:12 6441 [ERROR] InnoDB: Transaction id 63057 associated with recordCOMPACT RECORD(info_bits=0, 2 fields): {[8]       9(0x8000000000000039),[8]       J(0x800000000000004A)} in index `mdl_graditem_cou_ix` of table `mysql`.`mdl_grade_items` is greater than the global counter 61685! The table is corrupted.
+2022-01-14 20:09:12 6441 [ERROR] InnoDB: Transaction id 63095 associated with recordCOMPACT RECORD(info_bits=0, 2 fields): {[8]       9(0x8000000000000039),[8]       X(0x8000000000000058)} in index `mdl_courmodu_cou_ix` of table `mysql`.`mdl_course_modules` is greater than the global counter 61698! The table is corrupted.
+2022-01-14 20:09:12 6441 [ERROR] InnoDB: Transaction id 63155 associated with recordCOMPACT RECORD(info_bits=0, 3 fields): {[8]       9(0x8000000000000039),[8]        (0x8000000000000000),[8]        (0x8000000000000116)} in index `mdl_coursect_cousec_uix` of table `mysql`.`mdl_course_sections` is greater than the global counter 61776! The table is corrupted.
+2022-01-14 20:09:12 6441 [ERROR] InnoDB: Transaction id 63155 associated with recordCOMPACT RECORD(info_bits=0, 3 fields): {[8]       9(0x8000000000000039),[8]        (0x8000000000000001),[8]        (0x8000000000000117)} in index `mdl_coursect_cousec_uix` of table `mysql`.`mdl_course_sections` is greater than the global counter 61776! The table is corrupted.
+2022-01-14 20:09:12 6441 [ERROR] InnoDB: Transaction id 63155 associated with recordCOMPACT RECORD(info_bits=0, 3 fields): {[8]       9(0x8000000000000039),[8]        (0x8000000000000002),[8]        (0x8000000000000118)} in index `mdl_coursect_cousec_uix` of table `mysql`.`mdl_course_sections` is greater than the global counter 61776! The table is corrupted.
+2022-01-14 20:09:12 6441 [ERROR] InnoDB: Transaction id 63155 associated with recordCOMPACT RECORD(info_bits=0, 3 fields): {[8]       9(0x8000000000000039),[8]        (0x8000000000000003),[8]        (0x8000000000000119)} in index `mdl_coursect_cousec_uix` of table `mysql`.`mdl_course_sections` is greater than the global counter 61776! The table is corrupted.
+2022-01-14 20:09:12 6441 [ERROR] InnoDB: Transaction id 63155 associated with recordCOMPACT RECORD(info_bits=0, 3 fields): {[8]       9(0x8000000000000039),[8]        (0x8000000000000004),[8]        (0x800000000000011A)} in index `mdl_coursect_cousec_uix` of table `mysql`.`mdl_course_sections` is greater than the global counter 61776! The table is corrupted.
+2022-01-14 20:09:12 6441 [ERROR] InnoDB: Transaction id 63182 associated with recordCOMPACT RECORD(info_bits=0, 2 fields): {[8]       9(0x8000000000000039),[8]       p(0x8000000000000070)} in index `mdl_courformopti_cou_ix` of table `mysql`.`mdl_course_format_options` is greater than the global counter 61806! The table is corrupted.
+2022-01-14 20:09:12 6441 [ERROR] InnoDB: Transaction id 63182 associated with recordCOMPACT RECORD(info_bits=0, 2 fields): {[8]       9(0x8000000000000039),[8]       q(0x8000000000000071)} in index `mdl_courformopti_cou_ix` of table `mysql`.`mdl_course_format_options` is greater than the global counter 61807! The table is corrupted.
+2022-01-14 20:09:16 6444 [ERROR] InnoDB: Transaction id 63057 associated with recordCOMPACT RECORD(info_bits=0, 2 fields): {[8]       8(0x8000000000000038),[8]       K(0x800000000000004B)} in index `mdl_graditem_cou_ix` of table `mysql`.`mdl_grade_items` is greater than the global counter 61867! The table is corrupted.
+2022-01-14 20:09:16 6444 [ERROR] InnoDB: Transaction id 63095 associated with recordCOMPACT RECORD(info_bits=0, 2 fields): {[8]       8(0x8000000000000038),[8]       W(0x8000000000000057)} in index `mdl_courmodu_cou_ix` of table `mysql`.`mdl_course_modules` is greater than the global counter 61884! The table is corrupted.
+2022-01-14 20:09:16 6444 [ERROR] InnoDB: Transaction id 63155 associated with recordCOMPACT RECORD(info_bits=0, 3 fields): {[8]       8(0x8000000000000038),[8]        (0x8000000000000000),[8]        (0x8000000000000111)} in index `mdl_coursect_cousec_uix` of table `mysql`.`mdl_course_sections` is greater than the global counter 61950! The table is corrupted.
+2022-01-14 20:09:16 6444 [ERROR] InnoDB: Transaction id 63155 associated with recordCOMPACT RECORD(info_bits=0, 3 fields): {[8]       8(0x8000000000000038),[8]        (0x8000000000000001),[8]        (0x8000000000000112)} in index `mdl_coursect_cousec_uix` of table `mysql`.`mdl_course_sections` is greater than the global counter 61950! The table is corrupted.
+2022-01-14 20:09:16 6444 [ERROR] InnoDB: Transaction id 63155 associated with recordCOMPACT RECORD(info_bits=0, 3 fields): {[8]       8(0x8000000000000038),[8]        (0x8000000000000002),[8]        (0x8000000000000113)} in index `mdl_coursect_cousec_uix` of table `mysql`.`mdl_course_sections` is greater than the global counter 61950! The table is corrupted.
+2022-01-14 20:09:16 6444 [ERROR] InnoDB: Transaction id 63155 associated with recordCOMPACT RECORD(info_bits=0, 3 fields): {[8]       8(0x8000000000000038),[8]        (0x8000000000000003),[8]        (0x8000000000000114)} in index `mdl_coursect_cousec_uix` of table `mysql`.`mdl_course_sections` is greater than the global counter 61950! The table is corrupted.
+2022-01-14 20:09:16 6444 [ERROR] InnoDB: Transaction id 63155 associated with recordCOMPACT RECORD(info_bits=0, 3 fields): {[8]       8(0x8000000000000038),[8]        (0x8000000000000004),[8]        (0x8000000000000115)} in index `mdl_coursect_cousec_uix` of table `mysql`.`mdl_course_sections` is greater than the global counter 61950! The table is corrupted.
+2022-01-14 20:09:16 6444 [ERROR] InnoDB: Transaction id 63182 associated with recordCOMPACT RECORD(info_bits=0, 2 fields): {[8]       8(0x8000000000000038),[8]       n(0x800000000000006E)} in index `mdl_courformopti_cou_ix` of table `mysql`.`mdl_course_format_options` is greater than the global counter 61973! The table is corrupted.
+2022-01-14 20:09:16 6444 [ERROR] InnoDB: Transaction id 63182 associated with recordCOMPACT RECORD(info_bits=0, 2 fields): {[8]       8(0x8000000000000038),[8]       o(0x800000000000006F)} in index `mdl_courformopti_cou_ix` of table `mysql`.`mdl_course_format_options` is greater than the global counter 61973! The table is corrupted.
+2022-01-14 20:10:13 6531 [ERROR] InnoDB: Transaction id 63057 associated with recordCOMPACT RECORD(info_bits=0, 2 fields): {[8]       <(0x800000000000003C),[8]       L(0x800000000000004C)} in index `mdl_graditem_cou_ix` of table `mysql`.`mdl_grade_items` is greater than the global counter 62282! The table is corrupted.
+2022-01-14 20:10:13 6531 [ERROR] InnoDB: Transaction id 63095 associated with recordCOMPACT RECORD(info_bits=0, 2 fields): {[8]       <(0x800000000000003C),[8]       [(0x800000000000005B)} in index `mdl_courmodu_cou_ix` of table `mysql`.`mdl_course_modules` is greater than the global counter 62303! The table is corrupted.
+2022-01-14 20:10:13 6531 [ERROR] InnoDB: Transaction id 63155 associated with recordCOMPACT RECORD(info_bits=0, 3 fields): {[8]       <(0x800000000000003C),[8]        (0x8000000000000000),[8]       %(0x8000000000000125)} in index `mdl_coursect_cousec_uix` of table `mysql`.`mdl_course_sections` is greater than the global counter 62389! The table is corrupted.
+2022-01-14 20:10:13 6531 [ERROR] InnoDB: Transaction id 63155 associated with recordCOMPACT RECORD(info_bits=0, 3 fields): {[8]       <(0x800000000000003C),[8]        (0x8000000000000001),[8]       &(0x8000000000000126)} in index `mdl_coursect_cousec_uix` of table `mysql`.`mdl_course_sections` is greater than the global counter 62389! The table is corrupted.
+2022-01-14 20:10:13 6531 [ERROR] InnoDB: Transaction id 63155 associated with recordCOMPACT RECORD(info_bits=0, 3 fields): {[8]       <(0x800000000000003C),[8]        (0x8000000000000002),[8]       '(0x8000000000000127)} in index `mdl_coursect_cousec_uix` of table `mysql`.`mdl_course_sections` is greater than the global counter 62389! The table is corrupted.
+2022-01-14 20:10:13 6531 [ERROR] InnoDB: Transaction id 63155 associated with recordCOMPACT RECORD(info_bits=0, 3 fields): {[8]       <(0x800000000000003C),[8]        (0x8000000000000003),[8]       ((0x8000000000000128)} in index `mdl_coursect_cousec_uix` of table `mysql`.`mdl_course_sections` is greater than the global counter 62389! The table is corrupted.
+2022-01-14 20:10:13 6531 [ERROR] InnoDB: Transaction id 63155 associated with recordCOMPACT RECORD(info_bits=0, 3 fields): {[8]       <(0x800000000000003C),[8]        (0x8000000000000004),[8]       )(0x8000000000000129)} in index `mdl_coursect_cousec_uix` of table `mysql`.`mdl_course_sections` is greater than the global counter 62393! The table is corrupted.
+2022-01-14 20:10:13 6531 [ERROR] InnoDB: Transaction id 63182 associated with recordCOMPACT RECORD(info_bits=0, 2 fields): {[8]       <(0x800000000000003C),[8]       v(0x8000000000000076)} in index `mdl_courformopti_cou_ix` of table `mysql`.`mdl_course_format_options` is greater than the global counter 62417! The table is corrupted.
+2022-01-14 20:10:13 6531 [ERROR] InnoDB: Transaction id 63182 associated with recordCOMPACT RECORD(info_bits=0, 2 fields): {[8]       <(0x800000000000003C),[8]       w(0x8000000000000077)} in index `mdl_courformopti_cou_ix` of table `mysql`.`mdl_course_format_options` is greater than the global counter 62419! The table is corrupted.
+2022-01-14 20:10:34 6558 [ERROR] InnoDB: Transaction id 63253 associated with recordCOMPACT RECORD(info_bits=0, 2 fields): {[8]        (0x8000000000000006),[8]        (0x8000000000000018)} in index `mdl_rolecontleve_rol_ix` of table `mysql`.`mdl_role_context_levels` is greater than the global counter 62483! The table is corrupted.
+2022-01-14 20:11:12 6595 [ERROR] InnoDB: Transaction id 63253 associated with recordCOMPACT RECORD(info_bits=0, 2 fields): {[8]        (0x800000000000000A),[8]        (0x800000000000001A)} in index `mdl_rolecontleve_rol_ix` of table `mysql`.`mdl_role_context_levels` is greater than the global counter 62631! The table is corrupted.
+2022-01-14 21:25:13 0 [Note] mysql\bin\mysqld.exe (initiated by: unknown): Normal shutdown
+2022-01-14 21:25:13 0 [Note] Event Scheduler: Purging the queue. 0 events
+2022-01-14 21:25:13 0 [Note] InnoDB: FTS optimize thread exiting.
+2022-01-14 21:25:13 0 [Note] InnoDB: Starting shutdown...
+2022-01-14 21:25:13 0 [Note] InnoDB: Dumping buffer pool(s) to D:\Moodle-Group10\server\mysql\data\ib_buffer_pool
+2022-01-14 21:25:13 0 [Note] InnoDB: Buffer pool(s) dump completed at 220114 21:25:13
+2022-01-14 21:25:14 0 [Note] InnoDB: Shutdown completed; log sequence number 39547380; transaction id 66303
+2022-01-14 21:25:14 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2022-01-14 21:25:14 0 [Note] mysql\bin\mysqld.exe: Shutdown complete
+
+2022-01-14 21:27:15 0 [Warning] The parameter innodb_large_prefix is deprecated and has no effect. It may be removed in future releases. See https://mariadb.com/kb/en/library/xtradbinnodb-file-format/
+InnoDB: using atomic writes.
+2022-01-14 21:27:15 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2022-01-14 21:27:15 0 [Note] InnoDB: Uses event mutexes
+2022-01-14 21:27:15 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2022-01-14 21:27:15 0 [Note] InnoDB: Number of pools: 1
+2022-01-14 21:27:15 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2022-01-14 21:27:15 0 [Note] InnoDB: Initializing buffer pool, total size = 256M, instances = 1, chunk size = 128M
+2022-01-14 21:27:15 0 [Note] InnoDB: Completed initialization of buffer pool
+2022-01-14 21:27:17 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2022-01-14 21:27:17 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2022-01-14 21:27:17 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2022-01-14 21:27:17 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\phpmyadmin\pma__bookmark.ibd' OS error: 203
+2022-01-14 21:27:17 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2022-01-14 21:27:17 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2022-01-14 21:27:17 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``phpmyadmin`.`pma__bookmark``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2022-01-14 21:27:17 0 [Warning] InnoDB: Ignoring tablespace for `phpmyadmin`.`pma__bookmark` because it could not be opened.
+2022-01-14 21:27:17 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2022-01-14 21:27:17 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2022-01-14 21:27:17 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2022-01-14 21:27:17 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\phpmyadmin\pma__central_columns.ibd' OS error: 203
+2022-01-14 21:27:17 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2022-01-14 21:27:17 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2022-01-14 21:27:17 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``phpmyadmin`.`pma__central_columns``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2022-01-14 21:27:17 0 [Warning] InnoDB: Ignoring tablespace for `phpmyadmin`.`pma__central_columns` because it could not be opened.
+2022-01-14 21:27:17 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2022-01-14 21:27:17 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2022-01-14 21:27:17 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2022-01-14 21:27:17 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\phpmyadmin\pma__column_info.ibd' OS error: 203
+2022-01-14 21:27:17 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2022-01-14 21:27:17 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2022-01-14 21:27:17 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``phpmyadmin`.`pma__column_info``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2022-01-14 21:27:17 0 [Warning] InnoDB: Ignoring tablespace for `phpmyadmin`.`pma__column_info` because it could not be opened.
+2022-01-14 21:27:17 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2022-01-14 21:27:17 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2022-01-14 21:27:17 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2022-01-14 21:27:17 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\phpmyadmin\pma__designer_settings.ibd' OS error: 203
+2022-01-14 21:27:17 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2022-01-14 21:27:17 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2022-01-14 21:27:17 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``phpmyadmin`.`pma__designer_settings``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2022-01-14 21:27:17 0 [Warning] InnoDB: Ignoring tablespace for `phpmyadmin`.`pma__designer_settings` because it could not be opened.
+2022-01-14 21:27:17 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2022-01-14 21:27:17 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2022-01-14 21:27:17 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2022-01-14 21:27:17 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\phpmyadmin\pma__export_templates.ibd' OS error: 203
+2022-01-14 21:27:17 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2022-01-14 21:27:17 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2022-01-14 21:27:17 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``phpmyadmin`.`pma__export_templates``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2022-01-14 21:27:17 0 [Warning] InnoDB: Ignoring tablespace for `phpmyadmin`.`pma__export_templates` because it could not be opened.
+2022-01-14 21:27:17 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2022-01-14 21:27:17 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2022-01-14 21:27:17 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2022-01-14 21:27:17 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\phpmyadmin\pma__favorite.ibd' OS error: 203
+2022-01-14 21:27:17 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2022-01-14 21:27:17 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2022-01-14 21:27:17 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``phpmyadmin`.`pma__favorite``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2022-01-14 21:27:17 0 [Warning] InnoDB: Ignoring tablespace for `phpmyadmin`.`pma__favorite` because it could not be opened.
+2022-01-14 21:27:17 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2022-01-14 21:27:17 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2022-01-14 21:27:17 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2022-01-14 21:27:17 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\phpmyadmin\pma__history.ibd' OS error: 203
+2022-01-14 21:27:17 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2022-01-14 21:27:17 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2022-01-14 21:27:17 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``phpmyadmin`.`pma__history``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2022-01-14 21:27:17 0 [Warning] InnoDB: Ignoring tablespace for `phpmyadmin`.`pma__history` because it could not be opened.
+2022-01-14 21:27:17 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2022-01-14 21:27:17 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2022-01-14 21:27:17 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2022-01-14 21:27:17 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\phpmyadmin\pma__navigationhiding.ibd' OS error: 203
+2022-01-14 21:27:17 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2022-01-14 21:27:17 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2022-01-14 21:27:17 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``phpmyadmin`.`pma__navigationhiding``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2022-01-14 21:27:17 0 [Warning] InnoDB: Ignoring tablespace for `phpmyadmin`.`pma__navigationhiding` because it could not be opened.
+2022-01-14 21:27:17 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2022-01-14 21:27:17 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2022-01-14 21:27:17 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2022-01-14 21:27:17 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\phpmyadmin\pma__pdf_pages.ibd' OS error: 203
+2022-01-14 21:27:17 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2022-01-14 21:27:17 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2022-01-14 21:27:17 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``phpmyadmin`.`pma__pdf_pages``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2022-01-14 21:27:17 0 [Warning] InnoDB: Ignoring tablespace for `phpmyadmin`.`pma__pdf_pages` because it could not be opened.
+2022-01-14 21:27:17 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2022-01-14 21:27:17 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2022-01-14 21:27:17 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2022-01-14 21:27:17 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\phpmyadmin\pma__recent.ibd' OS error: 203
+2022-01-14 21:27:17 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2022-01-14 21:27:17 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2022-01-14 21:27:17 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``phpmyadmin`.`pma__recent``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2022-01-14 21:27:17 0 [Warning] InnoDB: Ignoring tablespace for `phpmyadmin`.`pma__recent` because it could not be opened.
+2022-01-14 21:27:17 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2022-01-14 21:27:17 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2022-01-14 21:27:17 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2022-01-14 21:27:17 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\phpmyadmin\pma__relation.ibd' OS error: 203
+2022-01-14 21:27:17 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2022-01-14 21:27:17 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2022-01-14 21:27:17 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``phpmyadmin`.`pma__relation``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2022-01-14 21:27:17 0 [Warning] InnoDB: Ignoring tablespace for `phpmyadmin`.`pma__relation` because it could not be opened.
+2022-01-14 21:27:17 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2022-01-14 21:27:17 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2022-01-14 21:27:17 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2022-01-14 21:27:17 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\phpmyadmin\pma__savedsearches.ibd' OS error: 203
+2022-01-14 21:27:17 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2022-01-14 21:27:17 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2022-01-14 21:27:17 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``phpmyadmin`.`pma__savedsearches``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2022-01-14 21:27:17 0 [Warning] InnoDB: Ignoring tablespace for `phpmyadmin`.`pma__savedsearches` because it could not be opened.
+2022-01-14 21:27:17 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2022-01-14 21:27:17 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2022-01-14 21:27:17 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2022-01-14 21:27:17 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\phpmyadmin\pma__table_coords.ibd' OS error: 203
+2022-01-14 21:27:17 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2022-01-14 21:27:17 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2022-01-14 21:27:17 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``phpmyadmin`.`pma__table_coords``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2022-01-14 21:27:17 0 [Warning] InnoDB: Ignoring tablespace for `phpmyadmin`.`pma__table_coords` because it could not be opened.
+2022-01-14 21:27:17 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2022-01-14 21:27:17 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2022-01-14 21:27:17 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2022-01-14 21:27:17 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\phpmyadmin\pma__table_info.ibd' OS error: 203
+2022-01-14 21:27:17 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2022-01-14 21:27:17 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2022-01-14 21:27:17 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``phpmyadmin`.`pma__table_info``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2022-01-14 21:27:17 0 [Warning] InnoDB: Ignoring tablespace for `phpmyadmin`.`pma__table_info` because it could not be opened.
+2022-01-14 21:27:17 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2022-01-14 21:27:17 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2022-01-14 21:27:17 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2022-01-14 21:27:17 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\phpmyadmin\pma__table_uiprefs.ibd' OS error: 203
+2022-01-14 21:27:17 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2022-01-14 21:27:17 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2022-01-14 21:27:17 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``phpmyadmin`.`pma__table_uiprefs``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2022-01-14 21:27:17 0 [Warning] InnoDB: Ignoring tablespace for `phpmyadmin`.`pma__table_uiprefs` because it could not be opened.
+2022-01-14 21:27:17 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2022-01-14 21:27:17 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2022-01-14 21:27:17 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2022-01-14 21:27:17 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\phpmyadmin\pma__tracking.ibd' OS error: 203
+2022-01-14 21:27:17 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2022-01-14 21:27:17 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2022-01-14 21:27:17 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``phpmyadmin`.`pma__tracking``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2022-01-14 21:27:17 0 [Warning] InnoDB: Ignoring tablespace for `phpmyadmin`.`pma__tracking` because it could not be opened.
+2022-01-14 21:27:17 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2022-01-14 21:27:17 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2022-01-14 21:27:17 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2022-01-14 21:27:17 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\phpmyadmin\pma__userconfig.ibd' OS error: 203
+2022-01-14 21:27:17 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2022-01-14 21:27:17 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2022-01-14 21:27:17 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``phpmyadmin`.`pma__userconfig``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2022-01-14 21:27:17 0 [Warning] InnoDB: Ignoring tablespace for `phpmyadmin`.`pma__userconfig` because it could not be opened.
+2022-01-14 21:27:17 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2022-01-14 21:27:17 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2022-01-14 21:27:17 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2022-01-14 21:27:17 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\phpmyadmin\pma__usergroups.ibd' OS error: 203
+2022-01-14 21:27:17 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2022-01-14 21:27:17 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2022-01-14 21:27:17 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``phpmyadmin`.`pma__usergroups``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2022-01-14 21:27:17 0 [Warning] InnoDB: Ignoring tablespace for `phpmyadmin`.`pma__usergroups` because it could not be opened.
+2022-01-14 21:27:17 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2022-01-14 21:27:17 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2022-01-14 21:27:17 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2022-01-14 21:27:17 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\phpmyadmin\pma__users.ibd' OS error: 203
+2022-01-14 21:27:17 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2022-01-14 21:27:17 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2022-01-14 21:27:17 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``phpmyadmin`.`pma__users``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2022-01-14 21:27:17 0 [Warning] InnoDB: Ignoring tablespace for `phpmyadmin`.`pma__users` because it could not be opened.
+2022-01-14 21:27:17 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2022-01-14 21:27:17 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2022-01-14 21:27:17 0 [Note] InnoDB: Setting file 'D:\Moodle-Group10\server\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2022-01-14 21:27:17 0 [Note] InnoDB: File 'D:\Moodle-Group10\server\mysql\data\ibtmp1' size is now 12 MB.
+2022-01-14 21:27:17 0 [Note] InnoDB: Waiting for purge to start
+2022-01-14 21:27:17 0 [Note] InnoDB: 10.4.8 started; log sequence number 39547380; transaction id 66303
+2022-01-14 21:27:17 0 [Note] InnoDB: Loading buffer pool(s) from D:\Moodle-Group10\server\mysql\data\ib_buffer_pool
+2022-01-14 21:27:17 0 [Note] Plugin 'FEEDBACK' is disabled.
+2022-01-14 21:27:17 0 [Note] Server socket created on IP: '::'.
+2022-01-14 21:27:18 0 [Note] Reading of all Master_info entries succeeded
+2022-01-14 21:27:18 0 [Note] Added new Master_info '' to hash table
+2022-01-14 21:27:18 0 [Note] mysql\bin\mysqld.exe: ready for connections.
+Version: '10.4.8-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2022-01-14 21:27:18 0 [Note] InnoDB: Buffer pool(s) load completed at 220114 21:27:18
+2022-01-14 22:56:10 0 [Note] mysql\bin\mysqld.exe (initiated by: unknown): Normal shutdown
+2022-01-14 22:56:10 0 [Note] Event Scheduler: Purging the queue. 0 events
+2022-01-14 22:56:10 0 [Note] InnoDB: FTS optimize thread exiting.
+2022-01-14 22:56:10 0 [Note] InnoDB: Starting shutdown...
+2022-01-14 22:56:10 0 [Note] InnoDB: Dumping buffer pool(s) to D:\Moodle-Group10\server\mysql\data\ib_buffer_pool
+2022-01-14 22:56:10 0 [Note] InnoDB: Buffer pool(s) dump completed at 220114 22:56:10
+2022-01-14 22:56:11 0 [Note] InnoDB: Shutdown completed; log sequence number 43829383; transaction id 74001
+2022-01-14 22:56:11 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2022-01-14 22:56:11 0 [Note] mysql\bin\mysqld.exe: Shutdown complete
+
