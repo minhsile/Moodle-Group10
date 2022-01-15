@@ -32,11 +32,9 @@
 }}
 <div class="divider border-left h-75 align-self-center ml-1 mr-3"></div>
 <form action="{{{legacyseturl}}}" method="post" class="d-flex align-items-center editmode-switch-form">
-    <div class="input-group">
+    <div class="input-group">    
         <label class="mr-2 mb-0 {{#checked}}text-primary{{/checked}}" for="{{uniqid}}-editingswitch">
-            {{#str}} editmode {{/str}}
-        </label>
-        <div class="custom-control custom-switch">
+            <div class="custom-control custom-switch">
             <input type="checkbox"{{!
                 }} name="setmode"{{!
                 }}{{#checked}}{{!
@@ -52,6 +50,8 @@
             }}>
             <span class="custom-control-label">&nbsp;</span>
         </div>
+            {{#str}} editmode {{/str}}
+        </label>
     </div>
     <input type="hidden" name="sesskey" value="{{{sesskey}}}">
     <input type="hidden" name="pageurl" value="{{{pageurl}}}">
