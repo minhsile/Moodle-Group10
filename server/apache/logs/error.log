@@ -579,3 +579,17 @@ PHP Warning:  Module 'openssl' already loaded in Unknown on line 0
 [Sun Jan 16 12:00:35.123281 2022] [php7:error] [pid 26620:tid 1832] [client ::1:50250] PHP Fatal error:  Out of memory (allocated 2097152) (tried to allocate 1052672 bytes) in D:\\Moodle-Group10\\server\\moodle\\cache\\stores\\file\\lib.php on line 376, referer: http://localhost/
 [Sun Jan 16 12:24:01.120425 2022] [mpm_winnt:notice] [pid 26132:tid 652] AH00422: Parent: Received shutdown signal -- Shutting down the server.
 [Sun Jan 16 12:24:31.127524 2022] [mpm_winnt:notice] [pid 26132:tid 652] AH00431: Parent: Forcing termination of child process 26620
+[Sun Jan 16 12:31:31.362469 2022] [ssl:warn] [pid 13344:tid 568] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jan 16 12:31:31.407502 2022] [ssl:warn] [pid 13344:tid 568] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+PHP Warning:  Module 'openssl' already loaded in Unknown on line 0
+[Sun Jan 16 12:31:31.444478 2022] [mpm_winnt:notice] [pid 13344:tid 568] AH00455: Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.11 configured -- resuming normal operations
+[Sun Jan 16 12:31:31.444478 2022] [mpm_winnt:notice] [pid 13344:tid 568] AH00456: Apache Lounge VC15 Server built: Aug 11 2019 12:20:04
+[Sun Jan 16 12:31:31.444478 2022] [core:notice] [pid 13344:tid 568] AH00094: Command line: 'apache\\bin\\httpd.exe -d D:/Moodle-Group10/server/apache -f conf\\httpd.conf'
+[Sun Jan 16 12:31:31.448469 2022] [mpm_winnt:notice] [pid 13344:tid 568] AH00418: Parent: Created child process 18340
+[Sun Jan 16 12:31:32.027530 2022] [ssl:warn] [pid 18340:tid 500] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jan 16 12:31:32.066522 2022] [ssl:warn] [pid 18340:tid 500] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+PHP Warning:  Module 'openssl' already loaded in Unknown on line 0
+[Sun Jan 16 12:31:32.098521 2022] [mpm_winnt:notice] [pid 18340:tid 500] AH00354: Child: Starting 150 worker threads.
+[Sun Jan 16 13:09:18.380118 2022] [mpm_winnt:notice] [pid 13344:tid 568] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sun Jan 16 13:09:20.386689 2022] [mpm_winnt:notice] [pid 18340:tid 500] AH00364: Child: All worker threads have exited.
+[Sun Jan 16 13:09:20.447263 2022] [mpm_winnt:notice] [pid 13344:tid 568] AH00430: Parent: Child process 18340 exited successfully.

@@ -58,12 +58,12 @@
            autocomplete="off"
            value="{{ query }}"
         >
-        <!--<div class="input-group-append"> -->
+        <div class="input-group-append">
             <button type="submit" class="btn {{^btnclass}}btn-submit{{/btnclass}} {{ btnclass }} search-icon">
                 {{#pix}} a/search, core {{/pix}}
                 <span class="sr-only">{{ searchstring }}</span>
             </button>
-        <!--</div> -->
+        </div>
     </div>
     {{#otherfields}}
         <div  class="ml-2">{{{ otherfields }}}</div>
