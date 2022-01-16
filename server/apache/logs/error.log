@@ -564,3 +564,18 @@ PHP Warning:  Module 'openssl' already loaded in Unknown on line 0
 [Sun Jan 16 10:52:21.147307 2022] [mpm_winnt:notice] [pid 20560:tid 572] AH00422: Parent: Received shutdown signal -- Shutting down the server.
 [Sun Jan 16 10:52:23.164296 2022] [mpm_winnt:notice] [pid 13340:tid 584] AH00364: Child: All worker threads have exited.
 [Sun Jan 16 10:52:23.263296 2022] [mpm_winnt:notice] [pid 20560:tid 572] AH00430: Parent: Child process 13340 exited successfully.
+[Sun Jan 16 11:01:18.194412 2022] [ssl:warn] [pid 26132:tid 652] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jan 16 11:01:18.243412 2022] [ssl:warn] [pid 26132:tid 652] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+PHP Warning:  Module 'openssl' already loaded in Unknown on line 0
+[Sun Jan 16 11:01:18.282416 2022] [mpm_winnt:notice] [pid 26132:tid 652] AH00455: Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.11 configured -- resuming normal operations
+[Sun Jan 16 11:01:18.282416 2022] [mpm_winnt:notice] [pid 26132:tid 652] AH00456: Apache Lounge VC15 Server built: Aug 11 2019 12:20:04
+[Sun Jan 16 11:01:18.282416 2022] [core:notice] [pid 26132:tid 652] AH00094: Command line: 'apache\\bin\\httpd.exe -d D:/Moodle-Group10/server/apache -f conf\\httpd.conf'
+[Sun Jan 16 11:01:18.287414 2022] [mpm_winnt:notice] [pid 26132:tid 652] AH00418: Parent: Created child process 26620
+[Sun Jan 16 11:01:18.905411 2022] [ssl:warn] [pid 26620:tid 580] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jan 16 11:01:18.946412 2022] [ssl:warn] [pid 26620:tid 580] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+PHP Warning:  Module 'openssl' already loaded in Unknown on line 0
+[Sun Jan 16 11:01:18.985411 2022] [mpm_winnt:notice] [pid 26620:tid 580] AH00354: Child: Starting 150 worker threads.
+[Sun Jan 16 11:42:28.646506 2022] [php7:error] [pid 26620:tid 1852] [client ::1:62972] PHP Fatal error:  Out of memory (allocated 2097152) (tried to allocate 1052672 bytes) in D:\\Moodle-Group10\\server\\moodle\\cache\\stores\\file\\lib.php on line 376, referer: http://localhost/user/edit.php?id=255&course=1
+[Sun Jan 16 12:00:35.123281 2022] [php7:error] [pid 26620:tid 1832] [client ::1:50250] PHP Fatal error:  Out of memory (allocated 2097152) (tried to allocate 1052672 bytes) in D:\\Moodle-Group10\\server\\moodle\\cache\\stores\\file\\lib.php on line 376, referer: http://localhost/
+[Sun Jan 16 12:24:01.120425 2022] [mpm_winnt:notice] [pid 26132:tid 652] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sun Jan 16 12:24:31.127524 2022] [mpm_winnt:notice] [pid 26132:tid 652] AH00431: Parent: Forcing termination of child process 26620
