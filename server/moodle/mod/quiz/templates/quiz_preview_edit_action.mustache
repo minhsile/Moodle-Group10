@@ -34,21 +34,16 @@
 <div class="container-fluid mb-3">
     <div class="row">
         {{#previewlink}}
-            <a class="btn btn-secondary mr-2" href="{{previewlink}}">{{#str}}previewquiz, quiz{{/str}}</a>
+            <a class="btn btn-secondary mr-2" href="{{previewlinks}}">{{#str}}previewquiz, quiz{{/str}}</a>
         {{/previewlink}}
         {{#editlink}}
             <a class="btn btn-primary mr-2" href="{{editlink}}">{{#str}}editquiz, quiz{{/str}}</a>
         {{/editlink}}
-        <!-- 
         {{#attemptlink}}
-            <a class="btn btn-primary" href="{{attemptlink}}">{{#str}}attemptquiz, quiz{{/str}}</a>
-        {{/attemptlink}} -->
+            <a class="btn btn-primary" href="{{attemptlinks}}">{{#str}}attemptquiz, quiz{{/str}}</a>
+        {{/attemptlink}}
         {{#addquestionlink}}
             <a class="btn btn-primary" href="{{addquestionlink}}">{{#str}}addquestion, quiz{{/str}}</a>
         {{/addquestionlink}}
     </div>
-    
 </div>
-{{#attemptlink}}
-    <a class="btn btn-primary" href="{{attemptlink}}">{{#str}}attemptquiz, quiz{{/str}}</a>
-{{/attemptlink}}
